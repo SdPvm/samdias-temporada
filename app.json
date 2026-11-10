@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Sam Dias Temporada",
+    "slug": "samdias-temporada",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "samdiastemporada",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "br.com.samdias.temporada",
+      "supportsTablet": false,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleDevelopmentRegion": "pt-BR"
+      }
+    },
+    "android": {
+      "package": "br.com.samdias.temporada",
+      "adaptiveIcon": {
+        "backgroundColor": "#FF7D36",
+        "foregroundImage": "./assets/images/adaptive-icon.png"
+      }
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FF7D36",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 160
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
